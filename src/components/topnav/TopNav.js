@@ -4,7 +4,7 @@ const TopNav = () => {
   return (
     <div>
         <div className="header bg-dark">
-        <div className="row">
+        <div className="top-navrow">
           <div className='brand my-1'>
             <h1>eStore</h1>
           </div>

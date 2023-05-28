@@ -1,4 +1,5 @@
 import './App.css';
+import MainComponent from './components/MainComponent';
 import CatNav from './components/catnav/CatNav';
 import TopNav from './components/topnav/TopNav';
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <TopNav/>
       <CatNav/>
+      <MainComponent/>
     </div>
   );
 }
